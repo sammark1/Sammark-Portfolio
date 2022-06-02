@@ -2,7 +2,7 @@ import './app.css'
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Sidenav from "./components/Sidenav"
+import Sidenav from "./components/Sidenav.jsx"
 
 function App() {
   return (
