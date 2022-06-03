@@ -2,7 +2,8 @@ import './app.css'
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Sidenav from "./components/Sidenav.jsx"
+import Sidenav from "./components/Sidenav";
+import ThreeTest from './components/ThreeTest';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <a href="details.html">non-functioning link</a>
       <Button>Bootstrap Button</Button>
       </Container>
+      <ThreeTest/>
     </div>
   );
 }
