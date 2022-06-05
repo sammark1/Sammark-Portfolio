@@ -1,0 +1,14 @@
+@font-face {
+    font-family: TypeThis;
+    src: local("TypeThis"), url("./fonts/TypeThisFamosaHeavy.otf") format('opentype');
+    font-weight: medium;
+}
+
+#title{
+    font-family: "TypeThis";
+    /* font-weight: bold; */
+    font-size: 64pt;
+    background: -webkit-linear-gradient(#DD7D6E, #DA5B77);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

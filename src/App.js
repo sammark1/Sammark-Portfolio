@@ -5,12 +5,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Sidenav from "./components/Sidenav";
 import ThreeJS from './components/ThreeJS';
 
+
 function App() {
   return (
     <div className="App">
       <ThreeJS/>
       <Container>
-      <h1>Samportfolio</h1>
+      <h1 id="title">Samuel Mark</h1>
       <Sidenav/>
       <a href="details.html">non-functioning link</a>
       <Button>Bootstrap Button</Button>
