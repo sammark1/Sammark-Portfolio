@@ -76,6 +76,12 @@ function Sidenav() {
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/sammarkdev/" target="_blank" className="nav-link"><i className="navi bi-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/sammark1" target="_blank" className="nav-link"><i className="navi bi-github"></i></a>
+                </li>
                 </ul>
             </div>
             </Container>

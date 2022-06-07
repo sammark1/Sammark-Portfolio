@@ -4,7 +4,7 @@ function Hero() {
 
     return(
     <div>
-        <Container>
+        <Container className="page-height">
         <h1 id="title">Samuel Mark</h1>
         <h3>Full Stack Web Developer</h3>
         </Container>

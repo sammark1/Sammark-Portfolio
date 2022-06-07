@@ -27,8 +27,22 @@ h3{
     -webkit-text-fill-color: transparent;
 }
 
+.page-height{
+    min-height: 100vh;
+}
+
+.navi{
+    font-size: 1rem;
+}
+
 .bi{
     font-size: 2rem;
+}
+
+.i-sk{
+    border:1px solid red;
+    width:32pt;
+    height:32pt;
 }
 
 .zback{
