@@ -2,16 +2,16 @@ import { useNavigate } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
-function Sidenav() {
+function Sidenav(props) {
 
     const navigate=useNavigate();
     return(
         // <Navbar>
         //     <ul className="nav nav-pills flex-column">
-        //         <li class="nav-item">
+        //         <li className="nav-item">
         //             <a href="https://www.linkedin.com/in/sammarkdev/" target="_blank" className="nav-link"><i className="bi bi-linkedin"></i></a>
         //         </li>
-        //         <li class="nav-item">
+        //         <li className="nav-item">
         //             <a href="https://github.com/sammark1" target="_blank" className="nav-link"><i className="bi bi-github"></i></a>
         //         </li>
         //     </ul>
@@ -39,42 +39,42 @@ function Sidenav() {
         //     <Container>
         //         <a className="navbar-brand">Sam-Mark-Dev</a>
                 
-        //             <span class="navbar-toggler-icon"></span>
+        //             <span className="navbar-toggler-icon"></span>
         //         </button>
-        //         <div class="collapse navbar-collapse" id="navbar1">
-        //             <ul class="navbar-nav">
-        //                 <li class="nav-item active">
-        //                     <a class="nav-link" href="#">About Me</a>
+        //         <div className="collapse navbar-collapse" id="navbar1">
+        //             <ul className="navbar-nav">
+        //                 <li className="nav-item active">
+        //                     <a className="nav-link" href="#">About Me</a>
         //                 </li>
-        //                 <li class="nav-item">
-        //                     <a class="nav-link" href="#">Projects</a>
+        //                 <li className="nav-item">
+        //                     <a className="nav-link" href="#">Projects</a>
         //                 </li>
-        //                 <li class="nav-item">
-        //                     <a class="nav-link" href="#">Contact</a>
+        //                 <li className="nav-item">
+        //                     <a className="nav-link" href="#">Contact</a>
         //                 </li>
         //             </ul>
         //         </div>
         //     </Container>
         // </nav>
-        <nav class="navbar navbar-expand-md navbar-light sticky-top bg-light">
+        <nav className="navbar navbar-expand-md navbar-light sticky-top bg-light">
             <Container>
-            <a class="navbar-brand" href="#">SamMarkDev</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <a className="navbar-brand" href="#">SamMarkDev</a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#about">About Me</a>
+            <div className="collapse navbar-collapse" id="navbarCollapse">
+                <ul className="navbar-nav mr-auto">
+                <li className="nav-item active">
+                    <a className="nav-link" href="#" onClick={()=>props.showTarget('about')}>About Me</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link anchor" href="#projects">Projects</a>
+                <li className="nav-item">
+                    <a className="nav-link anchor" href="#" onClick={()=>props.showTarget('projects')}>Projects</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                {/* <li className="nav-item">
+                    <a className="nav-link" href="#">Skills</a>
+                </li> */}
+                <li className="nav-item">
+                    <a className="nav-link" href="#" onClick={()=>props.showTarget('contact')}>Contact</a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/sammarkdev/" target="_blank" className="nav-link"><i className="navi bi-linkedin"></i></a>

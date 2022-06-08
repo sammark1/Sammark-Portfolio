@@ -11,18 +11,49 @@ import Sidenav from "./components/Sidenav";
 import ThreeJS from './components/Threejs/ThreeJS';
 import Hero from './components/Hero/Hero'
 import { ListGroupItem } from 'react-bootstrap';
+import { useState } from 'react';
 
 
 function App() {
+  const [isShowAbout,setShowAbout] = useState(false)
+  const [isShowProjects,setShowProjects] = useState(false)
+  const [isShowContact,setShowContact] = useState(false)
+
+  function showTarget(target){
+    console.log('showTarget')
+    switch (target) {
+      case 'about': 
+        setShowAbout(true);
+        setShowProjects(false);
+        setShowContact(false); 
+        break;
+      case 'projects': 
+        setShowAbout(false);
+        setShowProjects(true); 
+        setShowContact(false);
+        break;
+      case 'contact': 
+        setShowAbout(false);
+        setShowProjects(false); 
+        setShowContact(true);
+        break;
+    }
+  }
+
   return (
     <div className="App">
+      {/* <button onClick={()=>showTarget('about')}>Show about</button>
+      <button onClick={()=>showTarget('projects')}>Show projects</button>
+      <button onClick={()=>showTarget('contact')}>Show contact</button> */}
       <ThreeJS/>
-      <Sidenav/>
-      <Hero/>
-      <About/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Sidenav showTarget={showTarget}/>
+      <Container>
+        <Hero/>
+        <About showing={isShowAbout}/>
+        <Projects showing={isShowProjects}/>
+        <Contact showing={isShowContact}/>
+        {/* <Footer/> */}
+      </Container>
     </div>
   );
 }
