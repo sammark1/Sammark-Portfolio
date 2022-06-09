@@ -58,7 +58,7 @@ function Sidenav(props) {
         // </nav>
         <nav className="navbar navbar-expand-md navbar-light sticky-top bg-light">
             <Container>
-            <a className="navbar-brand" href="#">SamMarkDev</a>
+            <a className="navbar-brand" href="#" onClick={()=>props.showTarget('none')}>SamMarkDev</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -68,7 +68,7 @@ function Sidenav(props) {
                     <a className="nav-link" href="#" onClick={()=>props.showTarget('about')}>About Me</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link anchor" href="#" onClick={()=>props.showTarget('projects')}>Projects</a>
+                    <a className="nav-link anchor" href="#projects" onClick={()=>props.showTarget('projects')}>Projects</a>
                 </li>
                 {/* <li className="nav-item">
                     <a className="nav-link" href="#">Skills</a>

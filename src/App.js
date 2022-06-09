@@ -22,6 +22,11 @@ function App() {
   function showTarget(target){
     console.log('showTarget')
     switch (target) {
+      case 'none': 
+        setShowAbout(false);
+        setShowProjects(false);
+        setShowContact(false); 
+        break;
       case 'about': 
         setShowAbout(true);
         setShowProjects(false);
@@ -47,7 +52,7 @@ function App() {
       <button onClick={()=>showTarget('contact')}>Show contact</button> */}
       <ThreeJS/>
       <Sidenav showTarget={showTarget}/>
-      <Container>
+      <Container className="position-relative">
         <Hero/>
         <About showing={isShowAbout}/>
         <Projects showing={isShowProjects}/>

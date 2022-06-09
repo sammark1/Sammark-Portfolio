@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .page-height{
-    min-height: 75vh;
+    /* min-height: 75vh; */
 }
 
 .navi{
@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6, p{
     border:1px solid red;
     width:32pt;
     height:32pt;
+}
+
+.i-project{
+    font-size:32pt;
 }
 
 .zback{
@@ -65,9 +69,11 @@ a.anchor {
     animation-delay: 1s;
     transition: opacity 1s;
     opacity: 1;
+    position: initial;
+    
 }
 .transitional.hide{
     opacity: 0;
     pointer-events: none;
-    height:0;
+    position:absolute;
 }
