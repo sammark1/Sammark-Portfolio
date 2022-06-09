@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6, p{
     font-family: "TypeThis";
     font-size: 64pt;
     background: -webkit-linear-gradient(#DD7D6E, #DA5B77);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -69,11 +70,16 @@ a.anchor {
     animation-delay: 1s;
     transition: opacity 1s;
     opacity: 1;
-    position: initial;
+    position: absolute;
     
 }
 .transitional.hide{
     opacity: 0;
     pointer-events: none;
     position:absolute;
+}
+
+img{
+    overflow:hidden;
+    width:100%;
 }
