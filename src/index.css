@@ -45,9 +45,11 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .i-sk{
-    border:1px solid red;
-    width:32pt;
-    height:32pt;
+    font-size: 24pt;
+}
+
+.t-sk{
+    font-size: 24pt;
 }
 
 .i-project{
