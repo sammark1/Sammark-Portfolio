@@ -1,24 +1,87 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 
 @font-face {
+    font-family: Questral;
+    src: local("Questral"), url('./fonts/Questrial-Regular.ttf') format('truetype');
+}
+
+@font-face {
     font-family: TypeThis;
     src: local("TypeThis"), url("./fonts/TypeThisFamosaHeavy.otf") format('opentype');
     font-weight: medium;
+}
+
+html {
+    scroll-padding-top: 3.5rem;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: "Questral";
 }
 
 #title{
     font-family: "TypeThis";
     font-size: 64pt;
     background: -webkit-linear-gradient(#DD7D6E, #DA5B77);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.header-height{
+    min-height: 25vh;
+}
+
+.page-height{
+    /* min-height: 75vh; */
+}
+
+.navi{
+    font-size: 1rem;
 }
 
 .bi{
     font-size: 2rem;
 }
 
+.i-sk{
+    font-size: 24pt;
+}
+
+.t-sk{
+    font-size: 24pt;
+}
+
+.i-project{
+    font-size:32pt;
+}
+
 .zback{
+    position:fixed;
     z-index: -1;
+}
+
+a.anchor {
+    /* display: block;
+    position: relative; */
+    top: -250px;
+    /* visibility: hidden; */
+}
+
+.transitional {
+    animation-delay: 1s;
+    transition: opacity 1s;
+    opacity: 1;
+    position: absolute;
+    
+}
+.transitional.hide{
+    opacity: 0;
+    pointer-events: none;
     position:absolute;
+}
+
+img{
+    overflow:hidden;
+    width:100%;
 }
