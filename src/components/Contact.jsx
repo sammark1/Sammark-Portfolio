@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 function Contact(props){
     return(
+        //TODO ADD ICONS FROM BOOTSTRAP ICONS 
     <div className={props.showing?'transitional w-100' : 'transitional hide w-100'}>
         <div id='contact' className="page-height bg-light">
             <h2 className="text-center">How and where to find me</h2>
