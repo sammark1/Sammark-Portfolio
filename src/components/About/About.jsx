@@ -3,7 +3,6 @@ import Skills from './Skills'
 import React, { useState } from 'react';
 
 function About(props){
-    //FIXME remove example hide system
 
     return(
         <div className={props.showing?'transitional' : 'transitional hide'}>

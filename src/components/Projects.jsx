@@ -2,12 +2,15 @@ import TooltipIcon from './TooltipIcon'
 
 function Projects(props){
     return(
+        
         <div className={props.showing?'transitional' : 'transitional hide'}>
             <div id='projects' className="page-height">
                 <div className="row mb-4">
                     <div className="col">
-                        <div className="card">
-                            <img src="./assets/Compend02.png" alt="compend image" style={{maxWidth:'100%'}}/>
+                        <div className="card bg-light">
+                            <a className="bg-image project rounded" href="./assets/Compend02.png" target="blank">
+                                <img src="./assets/Compend02.png" alt="compend image" style={{maxWidth:'100%'}} className="img-project"/>
+                            </a>
                             <div className="card-body">
                                 <h2 className="card-title text-center">Compend</h2>
                                 <p className="card-text"> 
@@ -26,8 +29,10 @@ function Projects(props){
                 </div>
                 <div className="row mb-4">
                     <div className="col-6">
-                        <div className="card mb-4">
-                            <img src="./assets/LaunchAProbe01.png" alt="butter"/>
+                        <div className="card bg-light mb-4">
+                            <a className="bg-image project rounded" href="./assets/LaunchAProbe01.png" target="blank">
+                                <img src="./assets/LaunchAProbe01.png" alt="butter" className="img-project"/>
+                            </a>
                             <div className="card-body">
                                 <h2 className="card-title text-center">Launch a Probe</h2>
                                 <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quasi. Eius odit nisi aspernatur animi corporis, incidunt dolore similique dicta ipsam repellat nobis. Veniam nesciunt minus reiciendis et dignissimos qui.</p>
@@ -46,8 +51,10 @@ function Projects(props){
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="card mb-4">
-                            <img src="./assets/Revuu01.png" alt="butter"/>
+                        <div className="card bg-light mb-4">
+                            <a className="bg-image project rounded" href="./assets/Revuu01.png" target="blank">
+                                <img src="./assets/Revuu01.png" alt="butter" className="img-project"/>
+                            </a>
                             <div className="card-body">
                                 <h2 className="card-title text-center">Revuu</h2>
                                 <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda veritatis in quod soluta, eaque enim placeat, iusto tempore cum fugit autem aspernatur beatae voluptatum, non odit. Minima, debitis dolores.</p>
@@ -64,8 +71,10 @@ function Projects(props){
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="card mb-4">
-                            <img src="./assets/Intangicart01.png" alt="butter"/>
+                        <div className="card bg-light mb-4">
+                            <a className="bg-image project rounded" href="./assets/Intangicart01.png" target="blank">
+                                <img src="./assets/Intangicart01.png" alt="butter" className="img-project"/>
+                            </a>
                             <div className="card-body">
                                 <h2 className="card-title text-center">Intangicart</h2>
                                 <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda veritatis in quod soluta, eaque enim placeat, iusto tempore cum fugit autem aspernatur beatae voluptatum, non odit. Minima, debitis dolores.</p>
@@ -82,8 +91,10 @@ function Projects(props){
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="card mb-4">
-                            <img src="./assets/MLBeholder01.png" alt="butter"/>
+                        <div className="card bg-light mb-4">
+                            <a className="bg-image project rounded" href="./assets/MLBeholder01.png" target="blank">
+                                <img src="./assets/MLBeholder01.png" alt="butter" className="img-project"/>
+                            </a>
                             <div className="card-body">
                                 <h2 className="card-title text-center">My Little Beholder</h2>
                                 <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda veritatis in quod soluta, eaque enim placeat, iusto tempore cum fugit autem aspernatur beatae voluptatum, non odit. Minima, debitis dolores.</p>
