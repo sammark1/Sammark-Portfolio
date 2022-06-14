@@ -62,7 +62,7 @@ function App() {
         <Contact showing={isShowContact}/>
         {/* <Footer/> */}
       </Container>
-        <Background/>
+      <Background/>
     </div>
   );
 }
