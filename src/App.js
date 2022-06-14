@@ -57,9 +57,9 @@ function App() {
       <Sidenav showTarget={showTarget}/>
       <Container className="position-relative p-0">
         <Hero/>
-        <About showing={isShowAbout}/>
+        {/* <About showing={isShowAbout}/> */}
         {/* <Projects showing={isShowProjects}/> */}
-        {/* <Contact showing={isShowContact}/> */}
+        <Contact showing={isShowContact}/>
         {/* <Footer/> */}
       </Container>
       <Background/>
