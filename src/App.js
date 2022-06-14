@@ -55,11 +55,11 @@ function App() {
       <button onClick={()=>showTarget('contact')}>Show contact</button> */}
       <ThreeJS/>
       <Sidenav showTarget={showTarget}/>
-      <Container className="position-relative">
+      <Container className="position-relative p-0">
         <Hero/>
         <About showing={isShowAbout}/>
-        <Projects showing={isShowProjects}/>
-        <Contact showing={isShowContact}/>
+        {/* <Projects showing={isShowProjects}/> */}
+        {/* <Contact showing={isShowContact}/> */}
         {/* <Footer/> */}
       </Container>
       <Background/>
