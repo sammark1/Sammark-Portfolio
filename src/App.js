@@ -2,14 +2,17 @@ import './app.css'
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import * as mdb from 'mdb-ui-kit'
 // import 'bootstrap/dist/js/bootstrap.bundle';
+// import 'bootstrap';
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import About from "./components/About/About";
 import Sidenav from "./components/Sidenav";
 import ThreeJS from './components/Threejs/ThreeJS';
-import Hero from './components/Hero/Hero'
+import Hero from './components/Hero/Hero';
+import Background from './components/Background/Background';
 import { ListGroupItem } from 'react-bootstrap';
 import { useState } from 'react';
 
@@ -59,6 +62,7 @@ function App() {
         <Contact showing={isShowContact}/>
         {/* <Footer/> */}
       </Container>
+        <Background/>
     </div>
   );
 }
