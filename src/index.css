@@ -120,3 +120,7 @@ img{
     transition: filter .25s;
     filter:grayscale(0) brightness(1);
 }
+
+.highlight{
+    color:#DA5B77;
+}
