@@ -5,8 +5,8 @@ function Projects(props){
         
         <div className={props.showing?'transitional' : 'transitional hide'}>
             <div id='projects' className="page-height">
-                <div className="row mb-4">
-                    <div className="col">
+                <div className="d-flex flex-wrap">
+                    <div className="py-2">
                         <div className="card bg-light">
                             <a className="bg-image project rounded" href="./assets/Compend02.png" target="blank">
                                 <img src="./assets/Compend02.png" alt="compend image" style={{maxWidth:'100%'}} className="img-project"/>
@@ -26,10 +26,8 @@ function Projects(props){
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row mb-4">
-                    <div className="col-6">
-                        <div className="card bg-light mb-4">
+                    <div className="py-2">
+                        <div className="card bg-light">
                             <a className="bg-image project rounded" href="./assets/LaunchAProbe01.png" target="blank">
                                 <img src="./assets/LaunchAProbe01.png" alt="butter" className="img-project"/>
                             </a>
@@ -50,8 +48,8 @@ function Projects(props){
                             </div>
                         </div>
                     </div>
-                    <div className="col-6">
-                        <div className="card bg-light mb-4">
+                    <div className="py-2">
+                        <div className="card bg-light">
                             <a className="bg-image project rounded" href="./assets/Revuu01.png" target="blank">
                                 <img src="./assets/Revuu01.png" alt="butter" className="img-project"/>
                             </a>
@@ -70,8 +68,8 @@ function Projects(props){
                             </div>
                         </div>
                     </div>
-                    <div className="col-6">
-                        <div className="card bg-light mb-4">
+                    <div className="py-2">
+                        <div className="card bg-light">
                             <a className="bg-image project rounded" href="./assets/Intangicart01.png" target="blank">
                                 <img src="./assets/Intangicart01.png" alt="butter" className="img-project"/>
                             </a>
@@ -90,8 +88,8 @@ function Projects(props){
                             </div>
                         </div>
                     </div>
-                    <div className="col-6">
-                        <div className="card bg-light mb-4">
+                    <div className="py-2">
+                        <div className="card bg-light">
                             <a className="bg-image project rounded" href="./assets/MLBeholder01.png" target="blank">
                                 <img src="./assets/MLBeholder01.png" alt="butter" className="img-project"/>
                             </a>

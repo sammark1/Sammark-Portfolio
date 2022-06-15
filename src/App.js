@@ -52,13 +52,13 @@ function App() {
     <div className="App">
       {/* <button onClick={()=>showTarget('about')}>Show about</button>
       <button onClick={()=>showTarget('projects')}>Show projects</button>
-      <button onClick={()=>showTarget('contact')}>Show contact</button> */}
+    <button onClick={()=>showTarget('contact')}>Show contact</button> */}
       <ThreeJS/>
       <Sidenav showTarget={showTarget}/>
       <Container className="position-relative p-0">
         <Hero/>
-        {/* <About showing={isShowAbout}/> */}
-        {/* <Projects showing={isShowProjects}/> */}
+        <About showing={isShowAbout}/>
+        <Projects showing={isShowProjects}/>
         <Contact showing={isShowContact}/>
         {/* <Footer/> */}
       </Container>
