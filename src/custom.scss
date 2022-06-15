@@ -2,11 +2,17 @@
 
 $primary: #18a2ff;
 $secondary: #2469c3;
+$warning: #a85353;
+$highlight: #f2ff00;
 $light: #E8D8F0;
 // $white: #E8D8F0;
 $body-bg: #DECDEB;
-// $black: #73414C;
+// $black: #ff0037;
 $body-color: #73414C;
 
   
   @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.highlight{
+    color:$highlight;
+}
