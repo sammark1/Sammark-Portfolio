@@ -89,7 +89,7 @@ function Sidenav(props) {
         //     </Container>
         // </nav>
 
-        <Navbar bg="light" expand="sm" className="sticky-top">
+        <Navbar bg="light" expand="sm" sticky="top">
             <Container>
             <Navbar.Brand href="#" onClick={()=>props.showTarget('none')}>SamMarkDev</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
