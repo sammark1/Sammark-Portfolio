@@ -27,7 +27,7 @@ function Projects(props){
                                 <TooltipIcon classPass={"i-project"} tooltip={"PostgreSQL"} isrc={"devicon-postgresql-plain"}/>
                                 <TooltipIcon classPass={"i-project"} tooltip={"Bootstrap"} isrc={"devicon-bootstrap-plain"}/>
                                 </p>
-                                <a href="https://github.com/sammark1/Compend" target="_blank" className="btn btn-secondary"><span className="devicon-github-original"></span> Repository</a>
+                                <a href="https://github.com/sammark1/Compend" target="_blank" className="btn btn-secondary text-white"><span className="devicon-github-original"></span> Repository</a>
                             </div>
                         </div>
                     </div>
@@ -49,8 +49,8 @@ function Projects(props){
                                 <TooltipIcon classPass={"i-project"} tooltip={"PostgreSQL"} isrc={"devicon-postgresql-plain"}/>
                                 </p>
                                 <div className="btn-group">
-                                    <a href="https://github.com/sammark1/Launch-a-Probe" target="_blank" className="btn btn-secondary"><span className="devicon-github-original"></span> Repository</a>
-                                    <a href="https://launch-a-probe.herokuapp.com/" target="_blank" className="btn btn-secondary"><span className="devicon-heroku-original"></span> Deploy</a>
+                                    <a href="https://github.com/sammark1/Launch-a-Probe" target="_blank" className="btn btn-secondary text-white"><span className="devicon-github-original"></span> Repository</a>
+                                    <a href="https://launch-a-probe.herokuapp.com/" target="_blank" className="btn btn-secondary text-white"><span className="devicon-heroku-original"></span> Deploy</a>
                                 </div>
                             </div>
                         </div>
@@ -70,8 +70,8 @@ function Projects(props){
                                 <TooltipIcon classPass={"i-project"} tooltip={"MongoDB"} isrc={"devicon-mongodb-plain"}/>
                                 </p>
                                 <div className="btn-group">
-                                    <a href="https://github.com/janiceh94/Revuu" target="_blank" className="btn btn-secondary"><span className="devicon-github-original"></span> Repository</a>
-                                    <a href="https://revuu.herokuapp.com/" target="_blank" className="btn btn-secondary"><span className="devicon-heroku-original"></span> Deploy</a>
+                                    <a href="https://github.com/janiceh94/Revuu" target="_blank" className="btn btn-secondary text-white"><span className="devicon-github-original"></span> Repository</a>
+                                    <a href="https://revuu.herokuapp.com/" target="_blank" className="btn btn-secondary text-white"><span className="devicon-heroku-original"></span> Deploy</a>
                                 </div>
                             </div>
                         </div>
@@ -91,8 +91,8 @@ function Projects(props){
                                 <TooltipIcon classPass={"i-project"} tooltip={"MongoDB"} isrc={"devicon-mongodb-plain"}/>
                                 </p>
                                 <div className="btn-group">
-                                    <a href="https://github.com/sammark1/Intangicart" target="_blank" className="btn btn-secondary"><span className="devicon-github-original"></span> Repository</a>
-                                    <a href="https://intangicart.herokuapp.com/landing" target="_blank" className="btn btn-secondary"><span className="devicon-heroku-original"></span> Deploy</a>
+                                    <a href="https://github.com/sammark1/Intangicart" target="_blank" className="btn btn-secondary text-white text-white"><span className="devicon-github-original"></span> Repository</a>
+                                    <a href="https://intangicart.herokuapp.com/landing" target="_blank" className="btn btn-secondary text-white text-white"><span className="devicon-heroku-original"></span> Deploy</a>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ function Projects(props){
                                 <TooltipIcon classPass={"i-project"} tooltip={"CSS3"} isrc={"devicon-css3-plain"}/>
                                 <TooltipIcon classPass={"i-project"} tooltip={"HTML5"} isrc={"devicon-html5-plain"}/>
                                 </p>
-                                <a href="https://github.com/sammark1/My-Little-Beholder-JS-Adventure" target="_blank" className="btn btn-secondary"><span className="devicon-github-original"></span> Repository</a>
+                                <a href="https://github.com/sammark1/My-Little-Beholder-JS-Adventure" target="_blank" className="btn btn-secondary text-white text-white"><span className="devicon-github-original"></span> Repository</a>
                             </div>
                         </div>
                     </div>

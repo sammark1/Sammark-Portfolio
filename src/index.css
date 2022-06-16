@@ -100,7 +100,8 @@ img{
 
 .project{
     position: relative;
-    background-image: linear-gradient(to bottom,#91a6c1,#DECDEB 100%);
+    /* background-image: linear-gradient(to bottom,#464bd0,#464bd0 100%); */
+    background: #9285b6;
     z-index: 1;
 }
 
@@ -111,7 +112,7 @@ img{
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom,#808080,#a0a0a0);
+  background-image: linear-gradient(to bottom,#000000,#000000);
   z-index: -1;
   transition: opacity .5s;
   opacity: 0;
@@ -122,9 +123,9 @@ img{
 }
 
 .project .img-project{
-    transition: filter .5s;
-    mix-blend-mode:overlay;
-    filter:grayscale(1) brightness(.75);
+    transition: filter .25s;
+    mix-blend-mode:screen;
+    filter:grayscale(1) brightness(1);
 }
 
 .project:hover .img-project{
