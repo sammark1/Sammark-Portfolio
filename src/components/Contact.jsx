@@ -22,7 +22,7 @@ function Contact(props){
                     <i className="bi bi-badge-3d"></i>
                     <p className="">3D art</p>
                 </a>
-                <a href="./assets/ATS TEMPLATE.pdf" target="blank" className="px-3 text-center text-decoration-none">
+                <a href="./assets/Samuel_Mark_Resume.pdf" target="blank" className="px-3 text-center text-decoration-none">
                     <i className="bi bi-file-earmark-person"></i>
                     <p className="">Resume</p>
                 </a>

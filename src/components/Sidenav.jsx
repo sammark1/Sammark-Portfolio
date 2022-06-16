@@ -89,7 +89,7 @@ function Sidenav(props) {
         //     </Container>
         // </nav>
 
-        <Navbar bg="light" expand="sm" className="sticky-top">
+        <Navbar bg="light" expand="sm" sticky="top">
             <Container>
             <Navbar.Brand href="#" onClick={()=>props.showTarget('none')}>SamMarkDev</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -98,6 +98,8 @@ function Sidenav(props) {
                     <Nav.Link href="#" onClick={()=>props.showTarget('about')}>About Me</Nav.Link>
                     <Nav.Link href="#projects" onClick={()=>props.showTarget('projects')}>Projects</Nav.Link>
                     <Nav.Link href="#" onClick={()=>props.showTarget('contact')}>Contact</Nav.Link>
+                    <Nav.Link href="https://www.linkedin.com/in/sammarkdev/" target="_blank"><i className="navi bi-linkedin"></i></Nav.Link>
+                    <Nav.Link href="https://github.com/sammark1" target="_blank"><i className="navi bi-github"></i></Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Container>

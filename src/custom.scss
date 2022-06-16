@@ -1,12 +1,19 @@
 // @import “../node_modules/bootstrap/scss/bootstrap.scss”;
 
-$primary: #18a2ff;
-$secondary: #2469c3;
-$light: #E8D8F0;
+$primary: #185fd1;
+$secondary: #528fb7;
+$warning: #a85353;
+$highlight: #f2ff00;
+$light: #f1ebf3;
 // $white: #E8D8F0;
 $body-bg: #DECDEB;
-// $black: #73414C;
+// $black: #ff0037;
 $body-color: #73414C;
+$something: #43374d;
 
   
   @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.highlight{
+    color:$highlight;
+}
