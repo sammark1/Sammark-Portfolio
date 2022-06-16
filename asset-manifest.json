@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sammark-portfolio/static/css/main.2b20399b.css",
-    "main.js": "/sammark-portfolio/static/js/main.5748ea27.js",
+    "main.css": "/sammark-portfolio/static/css/main.aec8078a.css",
+    "main.js": "/sammark-portfolio/static/js/main.ebf45163.js",
     "static/js/787.928a90dc.chunk.js": "/sammark-portfolio/static/js/787.928a90dc.chunk.js",
     "static/media/Questrial-Regular.ttf": "/sammark-portfolio/static/media/Questrial-Regular.8268e81790f4302669b7.ttf",
     "static/media/TypeThisFamosaHeavy.otf": "/sammark-portfolio/static/media/TypeThisFamosaHeavy.ee13ff5dcf2a1e855d18.otf",
     "index.html": "/sammark-portfolio/index.html",
-    "main.2b20399b.css.map": "/sammark-portfolio/static/css/main.2b20399b.css.map",
-    "main.5748ea27.js.map": "/sammark-portfolio/static/js/main.5748ea27.js.map",
+    "main.aec8078a.css.map": "/sammark-portfolio/static/css/main.aec8078a.css.map",
+    "main.ebf45163.js.map": "/sammark-portfolio/static/js/main.ebf45163.js.map",
     "787.928a90dc.chunk.js.map": "/sammark-portfolio/static/js/787.928a90dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b20399b.css",
-    "static/js/main.5748ea27.js"
+    "static/css/main.aec8078a.css",
+    "static/js/main.ebf45163.js"
   ]
 }
