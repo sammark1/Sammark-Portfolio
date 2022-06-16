@@ -60,6 +60,17 @@ h1, h2, h3, h4, h5, h6, p{
 .zback{
     position:fixed;
     z-index: -1;
+    left:20%;
+    top:5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .zback{
+        position:fixed;
+        z-index: -1;
+        left:0%;
+        top:20%;
+    }
 }
 
 a.anchor {
@@ -89,7 +100,8 @@ img{
 
 .project{
     position: relative;
-    background-image: linear-gradient(to bottom,#91a6c1,#DECDEB 100%);
+    /* background-image: linear-gradient(to bottom,#464bd0,#464bd0 100%); */
+    background: #5887a7;
     z-index: 1;
 }
 
@@ -100,7 +112,7 @@ img{
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom,#808080,#a0a0a0);
+  background-image: linear-gradient(to bottom,#000000,#000000);
   z-index: -1;
   transition: opacity .5s;
   opacity: 0;
@@ -111,16 +123,12 @@ img{
 }
 
 .project .img-project{
-    transition: filter .5s;
-    mix-blend-mode:overlay;
-    filter:grayscale(1) brightness(.75);
+    transition: filter .25s;
+    mix-blend-mode:screen;
+    filter:grayscale(1) brightness(1);
 }
 
 .project:hover .img-project{
     transition: filter .25s;
     filter:grayscale(0) brightness(1);
-}
-
-.highlight{
-    color:#DA5B77;
 }

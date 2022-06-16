@@ -1,3 +1,5 @@
+@import '../../custom.scss';
+
 .bg-circle{
     position:fixed;
     border-radius: 50%;
@@ -8,7 +10,7 @@
     top:44vh;
     left:74vw;
     background: rgb(134, 251, 255);
-    background: linear-gradient(195deg, #86fbff 0%, #2469c3 100%);
+    background: linear-gradient(195deg, $body-bg 0%, #2469c3 100%);
     width: 300px;
     height: 300px;
 }
@@ -32,12 +34,12 @@
 }
 
 .circle-4{
-    top:50vh;
-    left:50vw;
+    top:-200px;
+    left:-600px;
     background: rgb(252,217,97);
-    background: linear-gradient(188deg, rgba(252,217,97,1) 0%, rgba(242,149,86,1) 100%);
-    width: 600px;
-    height: 600px;
+    background: linear-gradient(200deg, $body-bg, #007ae480 100%);
+    width: 75vw;
+    height: 75vw;
 }
 
 .circle-5{
