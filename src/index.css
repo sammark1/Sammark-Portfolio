@@ -60,6 +60,17 @@ h1, h2, h3, h4, h5, h6, p{
 .zback{
     position:fixed;
     z-index: -1;
+    left:20%;
+    top:5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .zback{
+        position:fixed;
+        z-index: -1;
+        left:0%;
+        top:20%;
+    }
 }
 
 a.anchor {

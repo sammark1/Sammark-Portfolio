@@ -23,7 +23,7 @@ function ThreeTest() {
             scene.add(object)
             const animate = function () {
                 requestAnimationFrame( animate );
-                object.rotation.z += 0.01;
+                object.rotation.z += 0.001;
                 object.rotation.y += 0.01;
                 renderer.render( scene, camera );
             };
@@ -40,7 +40,7 @@ function ThreeTest() {
         scene.add(light2);
         scene.add(light3);
         scene.add(light4);
-        camera.position.z = 18;
+        camera.position.z = 25;
         console.log(canvasRef.current)
         return()=> canvasRef.current.removeChild( renderer.domElement)
     },[])
